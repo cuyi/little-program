@@ -35,7 +35,7 @@ word_hash_tbl_t *word_hash_init(int bucket_size)
     return tbl;
 }
 
-// learn from https://blog.csdn.net/matrix_designer/article/details/6462284
+/* learn from https://blog.csdn.net/matrix_designer/article/details/6462284 */
 int word_get_hash_index(const char* word, int len)
 {
     int sum = 0;
